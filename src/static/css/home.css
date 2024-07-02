@@ -1,0 +1,26 @@
+.navbar-brand img {
+    width: 95px;
+}
+
+.navbar-brand p {
+    font-size: 1.2rem;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    filter: brightness(.4);
+}
+
+.bi::before {
+    font-size: 3rem;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
